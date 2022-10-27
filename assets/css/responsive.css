@@ -1,0 +1,68 @@
+@media (min-width: 0px) and (max-width: 575px){
+  /* nav start here */
+  .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 2rem;
+  }
+  /* f */
+  :root{
+    --fs-18: 12px;
+    --fs-45: 21px;
+    --fs-28: 21px;
+  }
+  .w-60{max-width: 90%;}
+  /* nav end here */
+
+  /* header content */
+  .header-content h1{
+    margin-top: 170px;
+  }
+  .header-content a{
+    font-size: var(--fs-14);
+    margin-bottom: 80px;
+  }
+  /* header content */
+
+  /* idea part */
+  .ideas-section{
+    background-image: none;
+    background-color: #F2F2F2;
+  }
+  /* idea part */
+ 
+  /* service section start here */
+  .our-service h3{
+    font-size: 18px;
+  }
+  /* service section end here */
+
+  /* fan facts start here */
+  .fan-fact .card-content{
+    margin-top: 50px;
+  }
+  /* fan facts end here */
+}
+@media (min-width: 576px) and (max-width: 767px){
+  :root{
+    --fs-18: 15px;
+    --fs-45: 30px;
+  }
+  .w-60{max-width: 70%;}
+    /* fan facts start here */
+    .fan-fact .card-content{
+      margin-top: 50px;
+    }
+    /* fan facts end here */
+
+    /* header content */
+  .header-content h1{
+    margin-top: 200px;
+  }
+  /* header content */
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+  .w-60{max-width: 75%;}
+}
+@media (min-width: 992px) and (max-width: 1199px){
+  .w-60{max-width: 75%;}
+}
